@@ -10,6 +10,8 @@
 
 #include "ofxOsc.h"
 
+// Sorry, all the comments are gone.
+
 class ofApp : public ofBaseApp {
 	public:
 		void setup();
@@ -20,8 +22,6 @@ class ofApp : public ofBaseApp {
 
 		ofxPiMapper piMapper;
 
-		// By using a custom source that is derived from FboSource
-		// you will be able to see the source listed in sources editor
 		CustomSource * customSource;
 		CrossSource * crossSource;
 		SpritesheetSource * spritesheetSource;
