@@ -11,7 +11,7 @@ void SpritesheetSource::setup(){
 	currentFrame = 0;
 	frameRate = 30;
 	lastNextFrameCall = 0.0f;
-	isPlaying = true;
+	isPlaying = false;
 	
 	cout << "numFrames: " << numFrames << endl;
 	
