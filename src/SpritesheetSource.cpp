@@ -13,8 +13,6 @@ void SpritesheetSource::setup(){
 	lastNextFrameCall = 0.0f;
 	isPlaying = false;
 	
-	cout << "numFrames: " << numFrames << endl;
-	
 	dstRect = ofRectangle(0, 0, getWidth(), getHeight());
 }
 
@@ -31,8 +29,6 @@ void SpritesheetSource::update(){
 			lastNextFrameCall = now;
 		}
 	}
-	
-	cout << "currentFrame: " << currentFrame << endl;
 }
 
 void SpritesheetSource::draw(){
