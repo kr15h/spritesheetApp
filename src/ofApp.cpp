@@ -31,7 +31,7 @@ void ofApp::setup(){
 	oscSenders.push_back(sender2);
 	//oscSenders.push_back(sender3);
 	
-	isSender = true;
+	isSender = false;
 }
 
 void ofApp::update(){
