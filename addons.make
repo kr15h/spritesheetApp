@@ -1,0 +1,6 @@
+ofxPiMapper
+ofxIO
+ofxXmlSettings
+ofxGui
+ofxOMXPlayer
+ofxOsc
